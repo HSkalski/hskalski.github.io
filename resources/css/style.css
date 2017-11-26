@@ -13,8 +13,8 @@ body{
 }
 
 .header{
-    background: url("../img/2headerimg2.jpg") 0%0%/cover;    
-   
+    background: url("../img/2headerimg2.jpg") 0%0%/cover;
+
     text-align: center;
     height: 800px;
 }
@@ -31,12 +31,13 @@ body{
     margin-top: 0;
     margin-bottom: 80px;
     text-transform: uppercase;
-    letter-spacing: 10px;   
+    letter-spacing: 10px;
 }
 
 .header .container{
+    font-family:"Vollkorn";
     position: relative;
-    top: 60px;
+    top: 320px;
 }
 .btn{
     color: #fff;
@@ -77,6 +78,3 @@ body{
     cursor: pointer;
     transition: background .5s;
 }
-
-
-
