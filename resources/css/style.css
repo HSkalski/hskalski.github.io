@@ -1,3 +1,7 @@
+*{
+
+}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -11,6 +15,11 @@ body{
     background: -moz-linear-gradient(skyblue,beige);
     background: linear-gradient(skyblue,beige);
 }
+
+h1{
+
+}
+
 
 .header{
     background: url("../img/2headerimg2.jpg") 0%0%/cover;
