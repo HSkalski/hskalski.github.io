@@ -22,7 +22,7 @@ h1{
 
 
 .header{
-    background: url("../img/2headerimg2.jpg") 0%0%/cover;
+    background: url("../img/2headerimg4.jpg") 0%0%/cover;
     background-position: center center;
     text-align: center;
     height: 800px;
@@ -82,7 +82,7 @@ h1{
     transition: background .5s;
 }
 
-.btn:hover, .nav ul li:hover{
+.nav ul li:hover{
     background:beige;
     cursor: pointer;
     transition: background .5s;
