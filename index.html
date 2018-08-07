@@ -9,41 +9,77 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <section class="d-flex flex-column justify-content-between" id="hero">
-        <div id="hero-top">
-            <nav class="navbar navbar-light navbar-expand-md" style="background-color:rgba(255,255,255,0.15);">
-                <div class="container-fluid"><a class="navbar-brand" href="#">HS</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div id="hero-top" style="height:468px;">
+            <nav class="navbar navbar-light navbar-expand-md">
+                <div class="container-fluid"><a class="navbar-brand" href="#"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse"
                         id="navcol-1">
                         <ul class="nav navbar-nav ml-auto" style="padding:0px;">
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Projects</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Photos</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#projects">Projects</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#photos">Photos</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#about">About</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <div id="space">
-                <div id="title"><span id="name">Harry Skalski</span></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 offset-md-0" id="title"><span class="bg-white" id="name">Harry Skalski</span></div>
+                </div>
             </div>
+            <div id="space" class="text-center"></div>
         </div>
         <div id="hero-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col"><button class="btn btn-link btn-block" type="button"><i class="fab fa-github"></i></button></div>
-                    <div class="col"><button class="btn btn-link btn-block" type="button"><i class="fa fa-envelope-o"></i></button></div>
+                    <div class="col"><button class="btn btn-link btn-block" type="button"><a href="https://github.com/Hskalski"><i class="fab fa-github"></i></a></button></div>
+                    <div class="col"><button class="btn btn-link btn-block" type="button"><a href="mailto:harrison.skalski@gmail.com"><i class="fa fa-envelope-o" style="color:rgba(255,255,255,0.75);"></i></a></button></div>
                 </div>
                 <div class="row">
-                    <div class="col"><button class="btn btn-link btn-block" type="button"><i class="icon ion-ios-arrow-down"></i></button></div>
+                    <div class="col"><button class="btn btn-link btn-block" type="button"><a href="#projects"><i class="icon ion-ios-arrow-down" style="color:rgb(255,255,255);"></i></a></button></div>
                 </div>
             </div>
         </div>
     </section>
+    <section id="photos"></section>
+    <section id="projects"></section>
+    <div id="projects" class="projects-clean">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Projects </h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/desk.jpg">
+                    <h3 class="name">Project Name</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/building.jpg">
+                    <h3 class="name">Project Name</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/loft.jpg">
+                    <h3 class="name">Project Name</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/minibus.jpeg">
+                    <h3 class="name">Project Name</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="about"></section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/particles.min.js"></script>
