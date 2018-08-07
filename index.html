@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HSkalski</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <section id="hero">
+    <section class="d-flex flex-column justify-content-between" id="hero">
         <div id="hero-top">
             <nav class="navbar navbar-light navbar-expand-md" style="background-color:rgba(255,255,255,0.15);">
                 <div class="container-fluid"><a class="navbar-brand" href="#">HS</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -29,8 +32,17 @@
                 <div id="title"><span id="name">Harry Skalski</span></div>
             </div>
         </div>
-        <div id="hero-bottom"></div>
-        <div id="particles-js"></div>
+        <div id="hero-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col"><button class="btn btn-link btn-block" type="button"><i class="fab fa-github"></i></button></div>
+                    <div class="col"><button class="btn btn-link btn-block" type="button"><i class="fa fa-envelope-o"></i></button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button class="btn btn-link btn-block" type="button"><i class="icon ion-ios-arrow-down"></i></button></div>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
