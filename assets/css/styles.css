@@ -15,3 +15,26 @@ body {
   background-color:rgb(21,21,51);
 }
 
+#title {
+  color:rgb(21,21,52);
+  /*background-color:white;*/
+  font-family:Roboto;
+  font:100 10vh/1 Roboto;
+  letter-spacing:5px;
+  text-transform:uppercase;
+}
+
+#space {
+  top:60%;
+  z-index:5;
+  position:absolute;
+  right:0;
+  left:10%;
+}
+
+#name {
+  background-color:white;
+  padding-right:1%;
+  padding-left:1%;
+}
+
