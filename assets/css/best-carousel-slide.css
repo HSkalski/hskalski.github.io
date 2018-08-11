@@ -57,6 +57,7 @@ p.hero-subtitle {
 
 * {
   /*box-sizing:inherit;*/
+  /*z-index:2;*/
 }
 
 *:before, *:after {

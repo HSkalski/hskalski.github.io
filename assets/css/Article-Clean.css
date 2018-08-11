@@ -87,6 +87,18 @@ a {
 }
 
 #pjts {
-  z-index:2;
+  /*z-index:2;*/
+}
+
+.photos-clean {
+  background-color:rgb(255,255,255);
+}
+
+#projects-heading {
+  color:rgb(21,21,51);
+}
+
+.about-clean {
+  background-color:white;
 }
 

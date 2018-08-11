@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/Particle-JS---Background-Fixed-1.css">
     <link rel="stylesheet" href="assets/css/Particle-JS---Background-Fixed.css">
     <link rel="stylesheet" href="assets/css/Projects-Clean.css">
@@ -50,26 +51,54 @@
             </div>
         </div>
     </section>
-    <section id="projects" class="projects-clean">
+    <section data-aos="fade" data-aos-duration="500" id="projects" class="projects-clean" style="margin:5%;">
         <div class="container" id="pjts">
             <div class="intro">
-                <h2 class="text-center">Projects </h2>
+                <h2 class="text-center" id="projects-heading">Projects </h2>
                 <p class="text-center"></p>
             </div>
             <div class="row projects">
-                <div class="col-sm-6 col-lg-4 item"><a href="https://github.com/DevsOnTheHill/NeuralNerds"><img class="img-fluid" src="assets/img/2048NeuralNetDiagram.png"><h3 class="name">Neural Nerds</h3></a></div>
-                <div class="col-sm-6 col-lg-4 item"><a href="http://ole-guacamole.com/"><img class="img-fluid" src="assets/img/oleguac.png"><h3 class="name">Ole Guacamole</h3><p class="description"></p></a></div>
-                <div class="col-sm-6 col-lg-4 item"><a href="https://github.com/HSkalski/SortOfHot"><img class="img-fluid" src="assets/img/sortofhot.png"><h3 class="name">Sort of Hot</h3><p class="description"></p></a></div>
-                <div class="col-sm-6 col-lg-4 item"><a href="https://github.com/HSkalski/Platformer"><img class="img-fluid" src="assets/img/menu.png"><h3 class="name">Chicken Logic</h3><p class="description"></p></a></div>
+                <div class="col-sm-6 col-lg-4 item"><a href="https://github.com/DevsOnTheHill/NeuralNerds"><img class="img-fluid" src="assets/img/2048NeuralNetDiagram.png"><h3 class="name">Neural Nerds</h3><p class="description">A software design project made to play the game 2048. The neural net, genetic algorithm, and progress graph were built from the ground up using C++ and openGL.&nbsp;</p></a></div>
+                <div
+                    class="col-sm-6 col-lg-4 item"><a href="http://ole-guacamole.com/"><img class="img-fluid" src="assets/img/oleguac.png"><h3 class="name">Ole Guacamole</h3><p class="description">A project created during HackISU fall 2017. This app was created as a proof of concept for a croud-sourced maps of local grocery stores and item locator.&nbsp;</p></a></div>
+            <div
+                class="col-sm-6 col-lg-4 item"><a href="https://github.com/HSkalski/SortOfHot"><img class="img-fluid" src="assets/img/sortofhot.png" width="200"><h3 class="name">Sort of Hot</h3><p class="description">A game created for a local St Olaf game week long game jam. Time only moves when you do... sort of. This was created using game maker studio.&nbsp;</p></a></div>
+        <div
+            class="col-sm-6 col-lg-4 item"><a href="https://meier3.github.io/haiku-generator/"><img class="img-fluid" src="assets/img/haiku-stew.png"><h3 class="name">Haiku Stew</h3><p class="description">Created for Minnehack Jan 2018, this project creates a 'perfect haiku' everytime!</p></a></div>
+            </div>
+            </div>
+    </section>
+    <section data-aos="fade" data-aos-duration="500" id="about" class="about-clean" style="margin:5%;">
+        <div class="container">
+            <div style="height:84px;">
+                <h1 class="text-center" style="color:rgb(21,21,51);margin:184px;padding:13px;">About</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="description">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.<br><br></p>
+                </div>
+                <div class="col-lg-8 col-xl-6 offset-lg-2 offset-xl-0"><img class="img-fluid img-responsive" src="assets/img/about.png"></div>
             </div>
         </div>
     </section>
-    <section id="photos"></section>
-    <section id="about"></section>
+    <section data-aos="fade" data-aos-duration="500" id="photos" class="photos-clean" style="margin:5%;">
+        <div class="container">
+            <div style="height:84px;">
+                <h1 class="text-center" style="color:rgb(21,21,51);margin:185px;padding:14px;">Photos</h1>
+            </div>
+        </div>
+    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/particles.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 </body>
 
 </html>
