@@ -94,11 +94,16 @@ a {
   background-color:rgb(255,255,255);
 }
 
-#projects-heading {
+#section-heading {
   color:rgb(21,21,51);
 }
 
 .about-clean {
   background-color:white;
+}
+
+.row.section-block {
+  padding-top:40px;
+  padding-bottom:40px;
 }
 
