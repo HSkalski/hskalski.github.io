@@ -25,13 +25,17 @@
     <section class="d-flex flex-column justify-content-between" id="hero">
         <div id="hero-top" style="height:468px;">
             <nav class="navbar navbar-light navbar-expand-md">
-                <div class="container-fluid"><a class="navbar-brand" href="#"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse"
-                        id="navcol-1">
+                <div class="container-fluid"><a class="navbar-brand" href="#"></a><button class="navbar-toggler"
+                        data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle
+                            navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="nav navbar-nav ml-auto" style="padding:0px;">
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#projects">Projects</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#lprojects">Live Projects</a>
+                            </li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#projects">Projects</a>
+                            </li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#about">About</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#photos">Photos</a></li>
+                            <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#photos">Photos</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -42,11 +46,46 @@
         <div id="hero-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col"><button class="btn btn-link btn-block" type="button"><a href="https://github.com/Hskalski"><i class="fab fa-github"></i></a></button></div>
-                    <div class="col"><button class="btn btn-link btn-block" type="button"><a href="mailto:harrison.skalski@gmail.com"><i class="fa fa-envelope-o" style="color:rgba(255,255,255,0.75);"></i></a></button></div>
+                    <div class="col"><button class="btn btn-link btn-block" type="button"><a
+                                href="https://github.com/Hskalski"><i class="fab fa-github"></i></a></button></div>
+                    <div class="col"><button class="btn btn-link btn-block" type="button"><a
+                                href="mailto:harrison.skalski@gmail.com"><i class="fa fa-envelope-o"
+                                    style="color:rgba(255,255,255,0.75);"></i></a></button></div>
                 </div>
                 <div class="row">
-                    <div class="col"><button class="btn btn-link btn-block" type="button"><a href="#projects"><i class="icon ion-ios-arrow-down" style="color:rgb(255,255,255);"></i></a></button></div>
+                    <div class="col"><button class="btn btn-link btn-block" type="button"><a href="#lprojects"><i
+                                    class="icon ion-ios-arrow-down" style="color:rgb(255,255,255);"></i></a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-aos="fade" data-aos-duration="500" id="lprojects" class="projects-clean" style="margin:5%;">
+        <div class="container" id="pjts">
+            <div class="intro">
+                <h2 class="text-center" id="section-heading">Live Projects </h2>
+                <p class="text-center"></p>
+            </div>
+            <div class="projects">
+                <div class="item">
+                    <a href="https://github.com/HSkalski/Ascii-Room">
+                        <h3 class="name">Ascii Room</h3>
+                        
+                        <div class="img-fluid embed-responsive embed-responsive-4by3">
+                            <iframe class="embed-responsive-item " src="https://ascii-room.herokuapp.com/"></iframe>
+                          </div>
+                    <p class="description">A 2 1/2 D rendered multiplayer game without using canvas</p>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="https://github.com/DevsOnTheHill/NeuralNerds">
+                        <h3 class="name">Multiuser Wireworld</h3>
+                        <div class="img-fluid embed-responsive embed-responsive-1by1">
+                            <iframe class="embed-responsive-item " src="https://multiuserwireworld.herokuapp.com/"></iframe>
+                          </div>
+                    <p class="description">An enviroment for multiple users to interact and build structure for a wireworld cellular automaton.</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -54,19 +93,38 @@
     <section data-aos="fade" data-aos-duration="500" id="projects" class="projects-clean" style="margin:5%;">
         <div class="container" id="pjts">
             <div class="intro">
-                <h2 class="text-center" id="section-heading">Projects </h2>
+                <h2 class="text-center" id="section-heading">Other Projects </h2>
                 <p class="text-center"></p>
             </div>
             <div class="row projects">
-                <div class="col-sm-6 col-lg-4 item"><a href="https://github.com/DevsOnTheHill/NeuralNerds"><img class="img-fluid" src="assets/img/2048NeuralNetDiagram.png"><h3 class="name">Neural Nerds</h3><p class="description">A software design project made to play the game 2048. The neural net, genetic algorithm, and progress graph were built from the ground up using C++ and openGL.&nbsp;</p></a></div>
-                <div
-                    class="col-sm-6 col-lg-4 item"><a href="http://ole-guacamole.com/"><img class="img-fluid" src="assets/img/oleguac.png"><h3 class="name">Ole Guacamole</h3><p class="description">A project created during HackISU fall 2017. This app was created as a proof of concept for a croud-sourced maps of local grocery stores and item locator.&nbsp;</p></a></div>
-            <div
-                class="col-sm-6 col-lg-4 item"><a href="https://github.com/HSkalski/SortOfHot"><img class="img-fluid" src="assets/img/sortofhot.png" width="200"><h3 class="name">Sort of Hot</h3><p class="description">A game created for a local St Olaf game week long game jam. Time only moves when you do... sort of. This was created using game maker studio.&nbsp;</p></a></div>
-        <div
-            class="col-sm-6 col-lg-4 item"><a href="https://meier3.github.io/haiku-generator/"><img class="img-fluid" src="assets/img/haiku-stew.png"><h3 class="name">Haiku Stew</h3><p class="description">Created for Minnehack Jan 2018, this project creates a 'perfect haiku' everytime!</p></a></div>
+                <div class="col-sm-6 col-lg-4 item"><a href="https://github.com/DevsOnTheHill/NeuralNerds"><img
+                            class="img-fluid" src="assets/img/2048NeuralNetDiagram.png">
+                        <h3 class="name">Neural Nerds</h3>
+                        <p class="description">A software design project made to play the game 2048. The neural net,
+                            genetic algorithm, and progress graph were built from the ground up using C++ and
+                            openGL.&nbsp;</p>
+                    </a></div>
+                <div class="col-sm-6 col-lg-4 item"><a href="http://ole-guacamole.com/"><img class="img-fluid"
+                            src="assets/img/oleguac.png">
+                        <h3 class="name">Ole Guacamole</h3>
+                        <p class="description">A project created during HackISU fall 2017. This app was created as a
+                            proof of concept for a croud-sourced maps of local grocery stores and item locator.&nbsp;
+                        </p>
+                    </a></div>
+                <div class="col-sm-6 col-lg-4 item"><a href="https://github.com/HSkalski/SortOfHot"><img
+                            class="img-fluid" src="assets/img/sortofhot.png" width="200">
+                        <h3 class="name">Sort of Hot</h3>
+                        <p class="description">A game created for a local St Olaf game week long game jam. Time only
+                            moves when you do... sort of. This was created using game maker studio.&nbsp;</p>
+                    </a></div>
+                <div class="col-sm-6 col-lg-4 item"><a href="https://meier3.github.io/haiku-generator/"><img
+                            class="img-fluid" src="assets/img/haiku-stew.png">
+                        <h3 class="name">Haiku Stew</h3>
+                        <p class="description">Created for Minnehack Jan 2018, this project creates a 'perfect haiku'
+                            everytime!</p>
+                    </a></div>
             </div>
-            </div>
+        </div>
     </section>
     <section data-aos="fade" data-aos-duration="500" id="about" class="projects-clean" style="margin:5%;">
         <div class="container">
@@ -75,21 +133,25 @@
             </div>
             <div class="row section-block">
                 <div class="col">
-                    <p class="description">I am a junior computer science major at St. Olaf College in Northfield MN. I am a lead cluster manager in the computer science department and work at the schools IT helpdesk.&nbsp;</p>
-                    <p class="description">I am a current first robotics mentor and former programmer and captain for the team. I am also involved in the local ACM student chapter.</p>
-                    <p class="description">My hobbies include PC building, metalworking, and metalworking.</p>
+                    <p class="description">I am a  computer science graduate from St. Olaf College in Northfield MN. I was
+                        am a lead cluster manager in the computer science department and worked at the schools IT
+                        helpdesk.&nbsp;</p>
+
+                    <p class="description">Some of my hobbies include PC building, robotics, and making.</p>
                 </div>
-                <div class="col-lg-8 col-xl-6 offset-lg-2 offset-xl-0"><img class="img-fluid img-responsive" src="assets/img/about.png"></div>
+                <div class="col-lg-8 col-xl-6 offset-lg-2 offset-xl-0"><img class="img-fluid img-responsive"
+                        src="assets/img/about.png"></div>
             </div>
         </div>
-    </section>
+    <!-- </section>
     <section data-aos="fade" data-aos-duration="500" id="photos" class="projects-clean" style="margin:5%;">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center intro" id="section-heading" style="font-size:32px;">Photos</h2>
             </div>
         </div>
-    </section>
+    </section> -->
+    <script src="loading.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/particles.min.js"></script>
